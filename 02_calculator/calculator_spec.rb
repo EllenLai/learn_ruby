@@ -54,7 +54,8 @@ end
 
 describe "#multiply" do
 
-  it "multiplies two numbers" do 
+  it "multiplies two numbers" do
+  multiply(2,3).should == 6 
   end
 
   it "multiplies several numbers" do
